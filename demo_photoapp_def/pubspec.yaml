@@ -1,0 +1,13 @@
+name: demo_photoapp_def
+description: Definition for a photo viewer app
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mss_core:
+    path: ../mss_core

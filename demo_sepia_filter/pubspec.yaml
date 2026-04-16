@@ -1,0 +1,15 @@
+name: demo_sepia_filter
+description: Classic sepia tone image filter
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mss_core:
+    path: ../mss_core
+  demo_image_filter_def:
+    path: ../demo_image_filter_def

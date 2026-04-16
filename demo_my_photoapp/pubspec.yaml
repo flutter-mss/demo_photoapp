@@ -1,0 +1,19 @@
+name: demo_my_photoapp
+description: A photo viewer app plugin
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mss_core:
+    path: ../mss_core
+  demo_photoapp_def:
+    path: ../demo_photoapp_def
+  demo_gallery_module_def:
+    path: ../demo_gallery_module_def
+  demo_image_filter_def:
+    path: ../demo_image_filter_def
