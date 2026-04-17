@@ -11,8 +11,6 @@ dependencies:
     sdk: flutter
   mss_core:
     path: ../mss_core
-  demo_photoapp_def:
-    path: ../demo_photoapp_def
   demo_gallery_module_def:
     path: ../demo_gallery_module_def
   demo_image_filter_def:

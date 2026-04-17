@@ -9,7 +9,6 @@ the MSS server via `git_subpath`.
 
 | Subpath | Role | Kind |
 |---|---|---|
-| `demo_photoapp_def/` | App interface definition | Interface (app) |
 | `demo_my_photoapp/` | App implementation | Plugin (app) |
 | `demo_gallery_module_def/` | Gallery module interface | Interface (module) |
 | `demo_photo_gallery/` | Gallery implementation | Plugin (module) |
@@ -20,10 +19,9 @@ the MSS server via `git_subpath`.
 ## Dependency graph
 
 ```
-demo_my_photoapp ──▶ demo_photoapp_def
-                 ├─▶ demo_gallery_module_def ◀── demo_photo_gallery
-                 └─▶ demo_image_filter_def   ◀── demo_grayscale_filter
-                                             ◀── demo_sepia_filter
+demo_my_photoapp ─┬─▶ demo_gallery_module_def ◀── demo_photo_gallery
+                  └─▶ demo_image_filter_def   ◀── demo_grayscale_filter
+                                              ◀── demo_sepia_filter
 ```
 
 All packages also depend on `mss_core` (rewritten by the MSS combiner at assembly time).

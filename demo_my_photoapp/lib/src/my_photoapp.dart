@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mss_core/mss_core.dart';
-import 'package:demo_photoapp_def/demo_photoapp_def.dart';
 import 'package:demo_gallery_module_def/demo_gallery_module_def.dart';
 import 'package:demo_image_filter_def/demo_image_filter_def.dart';
 
-class MyPhotoApp extends PhotoAppDefinition {
+class MyPhotoApp extends AppInterface {
   late List<ModuleInterface> _modules;
   List<GalleryModuleDefinition> get _galleries =>
       _modules.whereType<GalleryModuleDefinition>().toList();
