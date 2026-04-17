@@ -26,6 +26,13 @@ demo_my_photoapp ─┬─▶ demo_gallery_module_def ◀── demo_photo_galle
 
 All packages also depend on `mss_core` (rewritten by the MSS combiner at assembly time).
 
+## Try it
+
+Download the signed MSS client from
+[flutter-mss/mss_releases](https://github.com/flutter-mss/mss_releases/releases/latest),
+browse the store, and pick `demo_my_photoapp` + `demo_photo_gallery` +
+one or both of the filter extensions.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
